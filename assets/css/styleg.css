@@ -145,3 +145,10 @@ margin: 30px;
 background-color:rgb(232, 249, 253);
 
 }
+.titulo{
+display: flex;
+}
+.titulo h1{   
+align-items: center;
+align-content: center;
+}

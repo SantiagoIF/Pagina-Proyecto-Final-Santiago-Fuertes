@@ -10,18 +10,6 @@ h1 {
   margin: 20px;
 }
 
-.Texto-y-ver-mas button {
-  margin: 20px;
-  background-color: #0aa1dd;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
 .Texto-y-ver-mas button:hover {
   background-color: #2155cd;
   color: white;
@@ -32,10 +20,36 @@ h1 {
 .Img2 {
   grid-area: Img2;
   margin: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Img1 {
   grid-area: Img1;
   margin: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button, .Texto-y-ver-mas button {
+  margin: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #0aa1dd;
 }
 /*# sourceMappingURL=textoyvermas.css.map */

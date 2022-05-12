@@ -1,2 +1,12 @@
-$colorparalosbotones : rgb(10, 161, 221);
-$botonhover:  rgb(33, 85, 205);
+$colorboton : #0aa1dd;
+$colorhover:   #2155cd;
+$Paletas:(
+ textoblanco:white,
+ colordefondonav:#79dae8,
+ colordefondo:#e8f9fd,
+);
+@mixin orden-img{
+	margin:10px;
+	flex-direction:row;
+	justify-content:center;
+}
