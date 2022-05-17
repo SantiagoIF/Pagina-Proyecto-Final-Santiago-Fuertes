@@ -1,0 +1,24 @@
+.container-sobre-mi {
+display: column;
+overflow: hidden;
+text-align: center;
+color: map-get($Paletas,textoblanco)
+}
+.Img1{
+    grid-area:Img1;
+}
+.Texto1{
+    grid-area:Texto1;
+}
+.Img2{
+    grid-area:Img2;
+}
+.Texto2{
+    grid-area:Texto2;
+}
+.Img3{
+    grid-area:Img3;
+}
+.Texto3{
+    grid-area:Texto3;
+}

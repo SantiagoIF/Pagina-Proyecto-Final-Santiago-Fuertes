@@ -1,16 +1,18 @@
-@import "variables";
+
 .Navegador {
     grid-area: Navegador;
+    overflow: hidden;
     }
     .nav{
         background-color: map-get($Paletas,colordefondonav) ;
-        height: 75px;
-        width: 100vw;
+        height: 100px;
+        width: 100vp;
         display: flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid white;
         box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+        font-family: 'Roboto Condensed', sans-serif;
     }
     .logo{
         color: map-get($Paletas,textoblanco);

@@ -1,8 +1,10 @@
-@import "variables";
+
 .Texto-y-ver-mas {
     grid-area: Texto-y-ver-mas;
     display: block;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: map-get($Paletas,textoblanco);
 }
 h1{
 font-family: cursive;
