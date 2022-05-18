@@ -5,20 +5,32 @@ text-align: center;
 color: map-get($Paletas,textoblanco)
 }
 .Img1{
-    grid-area:Img1;
+    grid-column-start: Img1 ;
+    grid-column-end: Img1 ;
+    grid-column: Img1 ;
 }
 .Texto1{
-    grid-area:Texto1;
+    grid-column-start: Texto1 ;
+    grid-column-end: Texto1 ;
+    grid-column: Texto1 ;
 }
 .Img2{
-    grid-area:Img2;
+    grid-column-start: Img2 ;
+    grid-column-end: Img2 ;
+    grid-column: Img2 ;
 }
 .Texto2{
-    grid-area:Texto2;
+    grid-column-start: Texto2 ;
+    grid-column-end: Texto2 ;
+    grid-column: Texto2 ;
 }
 .Img3{
-    grid-area:Img3;
+    grid-column-start: Img3 ;
+    grid-column-end: Img3 ;
+    grid-column: Img3 ;
 }
 .Texto3{
-    grid-area:Texto3;
+    grid-column-start: Texto3 ;
+    grid-column-end: Texto3 ;
+    grid-column: Texto3 ;
 }

@@ -1,7 +1,7 @@
 @import "variables";
 @import "nav";
 @import "footer";
-@import "textoyvermas";
+@import "texto-y-ver-mas";
 @import "galeria";
 @import "contacto";
 @import "sobre-mi";
@@ -17,9 +17,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: .5fr 2fr .5px;
-  grid-auto-flow:row;
   gap: 0px 0px;
-  grid-template-areas:"Navegador Navegador Navegador" "Img1 Texto-y-ver-mas Img2" "Footer Footer Footer";
+  grid-template-areas:"Navegador Navegador Navegador " "Img1 Texto-y-ver-mas Img2"  "Footer Footer Footer ";
   }
 .container-galeria {
     display: grid;
@@ -27,7 +26,7 @@
     grid-template-rows: 1fr 1f 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas:"Navegador Navegador Navegador" "Titulo Titulo Titulo" "Retratos  Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre" "Retratos Paisajes  Vida-silvestre" "Retratos Paisajes  Vida-silvestre" "Footer Footer Footer";
+    grid-template-areas:"Navegador Navegador Navegador " "Titulo Titulo Titulo " "Retratos  Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre" "Footer Footer Footer ";
   }
 .container-contacto{
   display: grid;
@@ -35,14 +34,14 @@
   grid-template-rows:    .5fr 2fr .5fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "Navegador Navegador Navegador"  "Img Contacto Contacto" "Footer Footer Footer";
+  grid-template-areas: "Navegador Navegador Navegador "  "Img Contacto Contacto " "Footer Footer Footer ";
 }
 .container-sobre-mi {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: .5fr 1fr 1fr 1fr .5fr; 
   gap: 0px 0px; 
-  grid-template-areas:  "Navegador Navegador Navegador" "Img1 Img1 Texto1" "Texto2 Img2 Img2" " Img3 Img3 Texto3" "Footer Footer Footer";
+  grid-template-areas:  "Navegador Navegador Navegador " "Img1 Img1 Texto1 " "Texto2 Img2 Img2 " " Img3 Img3 Texto3 " "Footer Footer Footer ";
 }
 .fondo{
 background-color:map-get($Paletas,colordefondo);
@@ -55,7 +54,7 @@ background-color:map-get($Paletas,colordefondo);
     grid-template-rows: .5fr 1fr 1fr 1fr .5px;
     grid-auto-flow:row;
     gap: 0px 0px;
-    grid-template-areas: "Navegador" "Img1" "Texto-y-ver-mas" "Img2" "Footer" ;
+    grid-template-areas: "Navegador " "Img1 " "Texto-y-ver-mas " "Img2 " "Footer " ;
     }
   .container-galeria {
       display: grid;
@@ -63,7 +62,7 @@ background-color:map-get($Paletas,colordefondo);
       grid-template-rows: 1fr 1f 1fr 1fr 1fr 1fr;
       gap: 0px 0px;
       grid-auto-flow: row;
-      grid-template-areas: "Navegador" "Titulo" "Retratos" "Paisajes" "Vida-silvestre"  "Footer" ;
+      grid-template-areas: "Navegador " "Titulo " "Retratos " "Paisajes " "Vida-silvestre "  "Footer " ;
     }
   .container-contacto{
     display: grid;
@@ -71,14 +70,14 @@ background-color:map-get($Paletas,colordefondo);
     grid-template-rows:    .5fr 1fr 2fr .5fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "Navegador"  "Img"  "Contacto" "Footer";
+    grid-template-areas: "Navegador "  "Img "  "Contacto " "Footer ";
   }
   .container-sobre-mi {
     display: grid; 
     grid-template-columns: 1fr; 
     grid-template-rows: .5fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr; 
     gap: 0px 0px; 
-    grid-template-areas:  "Navegador" "Img1" "Texto1" "Texto2" "Img2" "Img3" "Texto3" "Footer" ;
+    grid-template-areas:  "Navegador " "Img1 " "Texto1 " "Texto2 " "Img2 " "Img3 " "Texto3 " "Footer " ;
   }
 }
 

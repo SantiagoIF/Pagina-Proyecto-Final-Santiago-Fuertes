@@ -11,7 +11,9 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-    grid-area:Contacto;
+    grid-column-start: Contacto ;
+    grid-column-end: Contacto ;
+    grid-column: Contacto ;
 }
 
 ul {

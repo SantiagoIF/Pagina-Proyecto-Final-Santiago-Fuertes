@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 .Navegador {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: Navegador;
+  -ms-grid-column: Navegador;
+      grid-column-start: Navegador;
+  grid-column-end: Navegador;
+  grid-column: Navegador;
   overflow: hidden;
 }
 
@@ -72,10 +72,10 @@
 }
 
 .Footer {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: Footer;
+  -ms-grid-column: Footer;
+      grid-column-start: Footer;
+  grid-column-end: Footer;
+  grid-column: Footer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,9 +145,10 @@ a {
 }
 
 .Texto-y-ver-mas {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: Texto-y-ver-mas;
+  -ms-grid-column: Texto-y-ver-mas;
+      grid-column-start: Texto-y-ver-mas;
+  grid-column-end: Texto-y-ver-mas;
+  grid-column: Texto-y-ver-mas;
   display: block;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -168,10 +169,10 @@ h1 {
 }
 
 .Img2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: Img2;
+  -ms-grid-column: Img2;
+      grid-column-start: Img2;
+  grid-column-end: Img2;
+  grid-column: Img2;
   margin: 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -183,10 +184,10 @@ h1 {
 }
 
 .Img1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: Img1;
+  -ms-grid-column: Img1;
+      grid-column-start: Img1;
+  grid-column-end: Img1;
+  grid-column: Img1;
   margin: 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -211,10 +212,10 @@ h1 {
 
 .retratos {
   font-family: 'Roboto Condensed', sans-serif;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 1;
-  grid-area: Retratos;
+  -ms-grid-column: Retratos;
+      grid-column-start: Retratos;
+  grid-column-end: Retratos;
+  grid-column: Retratos;
   display: column;
   overflow: hidden;
   text-align: center;
@@ -242,10 +243,10 @@ h1 {
 
 .paisajes {
   font-family: 'Roboto Condensed', sans-serif;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 2;
-  grid-area: Paisajes;
+  -ms-grid-column: Paisajes;
+      grid-column-start: Paisajes;
+  grid-column-end: Paisajes;
+  grid-column: Paisajes;
   display: column;
   overflow: hidden;
   text-align: center;
@@ -273,10 +274,10 @@ h1 {
 
 .vida-silvestre {
   font-family: 'Roboto Condensed', sans-serif;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 3;
-  grid-area: Vida-silvestre;
+  -ms-grid-column: Vida-silvestre;
+      grid-column-start: Vida-silvestre;
+  grid-column-end: Vida-silvestre;
+  grid-column: Vida-silvestre;
   display: column;
   overflow: hidden;
   text-align: center;
@@ -318,10 +319,10 @@ h1 {
 }
 
 .titulo {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: Titulo;
+  -ms-grid-column: Titulo;
+      grid-column-start: Titulo;
+  grid-column-end: Titulo;
+  grid-column: Titulo;
   color: white;
 }
 
@@ -331,10 +332,11 @@ h1 {
   font-size: 70px;
 }
 
-.img {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: Img;
+.Img {
+  -ms-grid-column: img;
+      grid-column-start: img;
+  grid-column-end: img;
+  grid-column: img;
 }
 
 .container-contacto {
@@ -350,10 +352,10 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: Contacto;
+  -ms-grid-column: Contacto;
+      grid-column-start: Contacto;
+  grid-column-end: Contacto;
+  grid-column: Contacto;
 }
 
 ul {
@@ -469,42 +471,45 @@ ul {
 }
 
 .Img1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: Img1;
+  -ms-grid-column: Img1;
+      grid-column-start: Img1;
+  grid-column-end: Img1;
+  grid-column: Img1;
 }
 
 .Texto1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: Texto1;
+  -ms-grid-column: Texto1;
+      grid-column-start: Texto1;
+  grid-column-end: Texto1;
+  grid-column: Texto1;
 }
 
 .Img2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: Img2;
+  -ms-grid-column: Img2;
+      grid-column-start: Img2;
+  grid-column-end: Img2;
+  grid-column: Img2;
 }
 
 .Texto2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: Texto2;
+  -ms-grid-column: Texto2;
+      grid-column-start: Texto2;
+  grid-column-end: Texto2;
+  grid-column: Texto2;
 }
 
 .Img3 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: Img3;
+  -ms-grid-column: Img3;
+      grid-column-start: Img3;
+  grid-column-end: Img3;
+  grid-column: Img3;
 }
 
 .Texto3 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 3;
-  grid-area: Texto3;
+  -ms-grid-column: Texto3;
+      grid-column-start: Texto3;
+  grid-column-end: Texto3;
+  grid-column: Texto3;
 }
 
 * {
@@ -522,9 +527,8 @@ ul {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: .5fr 2fr .5px;
       grid-template-rows: .5fr 2fr .5px;
-  grid-auto-flow: row;
   gap: 0px 0px;
-      grid-template-areas: "Navegador Navegador Navegador" "Img1 Texto-y-ver-mas Img2" "Footer Footer Footer";
+      grid-template-areas: "Navegador Navegador Navegador " "Img1 Texto-y-ver-mas Img2"  "Footer Footer Footer ";
 }
 
 .container-galeria {
@@ -536,7 +540,7 @@ ul {
       grid-template-rows: 1fr 1f 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-      grid-template-areas: "Navegador Navegador Navegador" "Titulo Titulo Titulo" "Retratos  Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre" "Retratos Paisajes  Vida-silvestre" "Retratos Paisajes  Vida-silvestre" "Footer Footer Footer";
+      grid-template-areas: "Navegador Navegador Navegador " "Titulo Titulo Titulo " "Retratos  Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre " "Retratos Paisajes  Vida-silvestre" "Footer Footer Footer ";
 }
 
 .container-contacto {
@@ -548,7 +552,7 @@ ul {
       grid-template-rows: .5fr 2fr .5fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-      grid-template-areas: "Navegador Navegador Navegador"  "Img Contacto Contacto" "Footer Footer Footer";
+      grid-template-areas: "Navegador Navegador Navegador "  "Img Contacto Contacto " "Footer Footer Footer ";
 }
 
 .container-sobre-mi {
@@ -559,7 +563,7 @@ ul {
   -ms-grid-rows: .5fr 1fr 1fr 1fr .5fr;
       grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
   gap: 0px 0px;
-      grid-template-areas: "Navegador Navegador Navegador" "Img1 Img1 Texto1" "Texto2 Img2 Img2" " Img3 Img3 Texto3" "Footer Footer Footer";
+      grid-template-areas: "Navegador Navegador Navegador " "Img1 Img1 Texto1 " "Texto2 Img2 Img2 " " Img3 Img3 Texto3 " "Footer Footer Footer ";
 }
 
 .fondo {
@@ -576,7 +580,7 @@ ul {
         grid-template-rows: .5fr 1fr 1fr 1fr .5px;
     grid-auto-flow: row;
     gap: 0px 0px;
-        grid-template-areas: "Navegador" "Img1" "Texto-y-ver-mas" "Img2" "Footer";
+        grid-template-areas: "Navegador " "Img1 " "Texto-y-ver-mas " "Img2 " "Footer ";
   }
   .container-galeria {
     display: -ms-grid;
@@ -587,7 +591,7 @@ ul {
         grid-template-rows: 1fr 1f 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-        grid-template-areas: "Navegador" "Titulo" "Retratos" "Paisajes" "Vida-silvestre"  "Footer";
+        grid-template-areas: "Navegador " "Titulo " "Retratos " "Paisajes " "Vida-silvestre "  "Footer ";
   }
   .container-contacto {
     display: -ms-grid;
@@ -598,7 +602,7 @@ ul {
         grid-template-rows: .5fr 1fr 2fr .5fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-        grid-template-areas: "Navegador"  "Img"  "Contacto" "Footer";
+        grid-template-areas: "Navegador "  "Img "  "Contacto " "Footer ";
   }
   .container-sobre-mi {
     display: -ms-grid;
@@ -608,7 +612,7 @@ ul {
     -ms-grid-rows: .5fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
         grid-template-rows: .5fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
     gap: 0px 0px;
-        grid-template-areas: "Navegador" "Img1" "Texto1" "Texto2" "Img2" "Img3" "Texto3" "Footer";
+        grid-template-areas: "Navegador " "Img1 " "Texto1 " "Texto2 " "Img2 " "Img3 " "Texto3 " "Footer ";
   }
 }
 /*# sourceMappingURL=style.css.map */
