@@ -1,8 +1,8 @@
 
 .Texto-y-ver-mas {
-    grid-column-start: Texto-y-ver-mas ;
-    grid-column-end: Texto-y-ver-mas ;
-    grid-column: Texto-y-ver-mas ;
+    grid-column-start: Texto-y-ver-mas;
+    grid-column-end: Texto-y-ver-mas;
+    grid-column: Texto-y-ver-mas;
     display: block;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -22,15 +22,15 @@ margin: 20px;
 transition-duration:2s; 
 }
 .Img2 {
-grid-column-start: Img2 ;
-grid-column-end: Img2 ;
-grid-column: Img2 ;
+grid-column-start: Img2;
+grid-column-end: Img2;
+grid-column: Img2;
 @include orden-img;
 }
 .Img1 {
-grid-column-start: Img1 ;
-grid-column-end: Img1 ;
-grid-column: Img1 ;
+grid-column-start: Img1;
+grid-column-end: Img1;
+grid-column: Img1;
 @include orden-img;
 }
 .button{
