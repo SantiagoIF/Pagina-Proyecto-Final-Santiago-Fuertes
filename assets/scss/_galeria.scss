@@ -1,8 +1,5 @@
 .retratos {
     font-family: 'Roboto Condensed', sans-serif;
-    grid-column-start: Retratos;
-    grid-column-end: Retratos;
-    grid-column: Retratos;
     display: column;
     overflow: hidden;
     text-align: center;
@@ -25,9 +22,6 @@ margin: 5px;
 }
 .paisajes {
     font-family: 'Roboto Condensed', sans-serif;
-    grid-column-start: Paisajes;
-    grid-column-end: Paisajes;
-    grid-column: Paisajes;
     display: column;
     overflow: hidden;
     text-align: center;
@@ -51,9 +45,6 @@ margin: 5px;
 
 .vida-silvestre {
     font-family: 'Roboto Condensed', sans-serif;
-    grid-column-start: Vida-silvestre;
-    grid-column-end: Vida-silvestre;
-    grid-column: Vida-silvestre;
     display: column;
     overflow: hidden;
     text-align: center;
@@ -91,18 +82,10 @@ margin: 5px;
     font-size: 50px;
 }
 .titulo{
-    grid-column-start: Titulo;
-    grid-column-end: Titulo;
-    grid-column: Titulo;
 color: map-get($Paletas,textoblanco)
 }
 .titulo h1{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 70px;
-}
-.Img{
-    grid-column-start: img;
-    grid-column-end: img;
-    grid-column: img;
 }
